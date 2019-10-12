@@ -1,0 +1,89 @@
+.plot {
+    display: grid;
+    grid-template: 1fr 1fr 1fr / 1fr 1fr 1fr;
+    background: #019031;
+    border-radius: 5%;
+    width: 50%;
+    border: 5px solid #402905;
+}
+
+body {
+  display: flex;
+  justify-content: flex-start;
+  background: url("https://cdnb.artstation.com/p/assets/images/images/010/592/919/large/rogue-dragon-studio-janesfarm-main.jpg?1525231030")
+}
+.box {
+  background: #402905;
+  border: 2px solid #9b7653;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  margin: 5%;
+}
+img{
+    max-width: 80%;
+    max-height: 80%;
+    user-select: none;
+}
+.controls{
+    padding: 15px;
+    display: flex;
+    width: 25%;
+    flex-direction: column;;
+    align-items: center;
+}
+#green{
+    border: none;
+    color: white;
+    background-color: #4CAF50;
+    padding: 14px 28px;
+    padding: 15px;
+    font-size: 50px;
+    cursor: pointer;
+    text-align: center;
+    justify-self: center;
+    border-radius: 12px;
+}
+#green:disabled{
+    background-color: gray;
+    color: azure;
+}
+
+h1{
+    color: #DFAF2B;
+    font-family: cursive;
+    user-select: none;
+}
+
+#time-left{
+    color: black;
+    font-size: 200px;
+    font-family: cursive;
+    user-select: none;
+}
+.scorecard{
+    padding: 15px;
+    display: flex;
+    width: 25%;
+    flex-direction: column;;
+    align-items: center;
+}
+#score{
+    color: #2B2B52;
+}
+
+#current-score{
+    color: black;
+    font-size: 150px;
+    font-family: cursive;
+    user-select: none;
+}
+
+#high-score{
+    color: black;
+    font-size: 150px;
+    font-family: cursive;
+    user-select: none;
+}

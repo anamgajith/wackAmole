@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="mystyle.css">
+    </head>
+    <body>
+            <div class='controls'>
+                <button id='green'  onclick="start()">START</button>
+                <h1>TIME LEFT</h1>
+                <div id='time-left'>0</div>
+            </div>
+            <div class="plot">
+                    <div id='1' class="box" onclick="clicked('1')"></div>
+                    <div id='2' class="box" onclick="clicked('2')"></div>
+                    <div id='3' class="box" onclick="clicked('3')"></div>
+                    <div id='4' class="box" onclick="clicked('4')"></div>
+                    <div id='5' class="box" onclick="clicked('5')"></div>
+                    <div id='6' class="box" onclick="clicked('6')"></div>
+                    <div id='7' class="box" onclick="clicked('7')"></div>
+                    <div id='8' class="box" onclick="clicked('8')"></div>
+                    <div id='9' class="box" onclick="clicked('9')"></div>
+                </div>
+                <div class='scorecard'>
+                    <h1 id='score'>SCORE</h1>
+                    <div id='current-score'>0</div>
+                    <h1 id='score'>BEST SCORE</h1>
+                    <div id='high-score'>0</div>
+                </div>
+    </body>
+    <script src="myscript.js"></script>
+</html>
