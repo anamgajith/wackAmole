@@ -1,5 +1,6 @@
 <html>
     <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>whackAmole</title>
         <link rel="stylesheet" type="text/css" href="mystyle.css">
     </head>
@@ -21,10 +22,14 @@
                     <div id='9' class="box" onclick="clicked('9')"></div>
                 </div>
                 <div class='scorecard'>
-                    <h1 id='score'>SCORE</h1>
-                    <div id='current-score'>0</div>
-                    <h1 id='score'>BEST SCORE</h1>
-                    <div id='high-score'>0</div>
+                    <div id='cs'>
+                        <h1 id='score'>SCORE</h1>
+                        <div id='current-score'>0</div>   
+                    </div>
+                    <div id='hs'>
+                        <h1 id='score'>BEST SCORE</h1>
+                        <div id='high-score'>0</div>
+                    </div>
                 </div>
     </body>
     <script src="myscript.js"></script>
