@@ -26,7 +26,7 @@ function begin(){
 function start(){
     process = setInterval(begin,1000);
     document.getElementById('green').disabled = true
-    time = 25
+    time = 60
     cs = 0
     document.getElementById('current-score').innerText = cs
 }
